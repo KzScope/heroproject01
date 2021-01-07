@@ -2,8 +2,29 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 50px;
+    
 }
 .text-highlight{
     color: rgb(253, 157, 2);
+}
+
+.btn-hire{
+    height: 30px;
+    width: 110px;
+    border-radius: 10px;
+    background-color: rgb(253, 157, 2);
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+
 }
