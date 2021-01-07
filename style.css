@@ -1,30 +1,85 @@
 body {
+    margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
 h1{
+    font-size: 50px;
     
+}
+h2{
+    font-size: 40px;
 }
 .text-highlight{
     color: rgb(253, 157, 2);
 }
 
-.btn-hire{
-    height: 30px;
-    width: 110px;
-    border-radius: 10px;
-    background-color: rgb(253, 157, 2);
-    font-size: 20px;
-    text-align: center;
-    color: black;
+p{
+    color: dimgray;
+    padding-bottom: 10px;
 }
-
 .half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    height: 500px;
+
 }
 .half-width img{
     width: 100%;
+   
+}
+.top-banner{
+    background-image: url("images/developer-portfolio/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
 
+.dream-area{
+    background-image: url("images/developer-portfolio/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.experience-area{
+    background-image: url("images/developer-portfolio/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.box-shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+    background-color: white;
+   
+}
+#side-border-1{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 2;
+    
+}
+
+#side-border-2{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 2;
+}
+
+footer p{
+    text-align: center;
+    color: tomato;
+    font-size: 22px;
 }
